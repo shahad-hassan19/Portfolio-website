@@ -16,10 +16,10 @@ export default function Hero(){
                 </p>
             </div>
             <div className="flex flex-col mr-4">
-                <a href="/home" rel="noreferrer" target="_blank" className="my-4 hover:text-amber-600">fa-facebook</a>
-                <a href="/home" rel="noreferrer" target="_blank" className="my-4 hover:text-amber-600">fa-linkedin</a>
-                <a href="/home" rel="noreferrer" target="_blank" className="my-4 hover:text-amber-600">fa-github</a>
-                <a href="/home" rel="noreferrer" target="_blank" className="my-4 hover:text-amber-600">faTwitter</a>
+                <a href="https://www.facebook.com/shahad.chauhangurjar." rel="noreferrer" target="_blank" className="my-4 hover:text-amber-600"><i class="fa-brands fa-facebook fa-2xl"></i></a>
+                <a href="https://www.linkedin.com/in/shahad-hassan-82287a220" rel="noreferrer" target="_blank" className="my-4 hover:text-amber-600"><i class="fa-brands fa-linkedin fa-2xl"></i></a>
+                <a href="https://github.com/shahad-hassan19" rel="noreferrer" target="_blank" className="my-4 hover:text-amber-600"><i class="fa-brands fa-github fa-2xl"></i></a>
+                <a href="https://twitter.com/ChauhanShahad03" rel="noreferrer" target="_blank" className="my-4 hover:text-amber-600"><i class="fa-brands fa-x-twitter fa-2xl"></i></a>
             </div>
             
             
