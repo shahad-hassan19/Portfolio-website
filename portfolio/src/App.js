@@ -1,21 +1,27 @@
 import './App.css';
 import Navbar from './Components/Navbar';
-import Hero from './Components/Hero'
-import Education from './Components/Education'
+import Hero from './Components/Hero';
+import AboutMe from './Components/AboutMe';
+import MySkills from './Components/MySkills';
+import Resume from './Components/Resume';
 import Projects from './Components/Projects';
-import Experience from './Components/Experience';
-import ContactForm from './Components/ContactForm';
+import HireMe from './Components/HireMe';
+import Testimonials from './Components/Testimonials';
+import ContactSection from './Components/ContactSection';
 import Footer from './Components/Footer';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App font-poppins">
       <Navbar />
       <Hero />
-      <Education />
+      <AboutMe />
+      <MySkills />
+      <Resume />
       <Projects />
-      <Experience />
-      <ContactForm />
+      <HireMe />
+      <Testimonials />
+      <ContactSection />
       <Footer />
     </div>
   );

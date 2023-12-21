@@ -1,10 +1,12 @@
 export default function ExpCard(props){
     return(
         <div>
-            <div className="border border-white rounded-md p-8">
-            <h3 className="font-semibold text-2xl mb-3">{props.desgn}</h3>
-            <p>{props.duration}</p>
-            <a href={props.href1} rel="noreferrer" target="_blank" >{props.company}</a>
+            <div className="">
+            <h3 className=" font-medium text-xl mb-2 ">{props.desgn}</h3>
+            <p className=" mb-2 font-normal">
+            <a href={props.href1} rel="noreferrer" target="_blank" >{props.company}</a> / {props.duration}
+            </p>
+            <p className=" mb-4 font-normal ">{props.mode}</p> 
             {/* <button><a href={props.href2} rel="noreferrer" target="_blank" >Certificate</a></button> */}
             </div>
         </div>

@@ -1,28 +1,29 @@
+import Pic from './Assets/Ellipse 1.png';
+import { Link } from 'react-scroll';
+import { FaRegArrowAltCircleDown } from "react-icons/fa";
+import { FaArrowDown } from "react-icons/fa";
 export default function Hero(){
+
     return(
-        <div className=" bg-cyan-950 max-h-full text-white px-12 py-5 flex justify-between items-center">
-            <div className="float-left rounded-full overflow-hidden m-12">
-                <img src = {require("./Assets/My-Pic.png")} alt='My-Pic' className="object-cover h-80 w-80" />
+        <div id='home' className="bg-yellow-300 w-full text-black lg:mt-16 ">
+            <div className=" flex flex-col-reverse text-center lg:text-left lg:flex-row justify-between align-items-center mx-12 md:mx-6 lg:mx-8 xl:mx-24 pt-16">
+                <div className="flex flex-col px-3">
+                    <h1 className=" text-3xl md:text-3.25xl lg:text-4xl xl:text-4.5xl font-light">HI, I'M SHAHAD HASSAN</h1>
+                    <h1 className=" text-6xl md:text-7xl lg:text-8xl xl:text-9xl font-semibold">DEVELOPER</h1>
+                    <h4 className=" text-xl font-normal mb-4">Based in Shamli, India.</h4>
+                    <div>
+                        <button onClick={() => document.getElementById('projects').scrollIntoView({behavior: 'smooth'})} className=" bg-black text-white mt-4 py-3 px-10 font-medium">View My Works</button>
+                        <button onClick={() => document.getElementById('contact-me').scrollIntoView({behavior: 'smooth'})} className=" font-medium mt-4 py-3 px-10 bg-transparent inline-flex underline"><span>Contact Me</span><FaRegArrowAltCircleDown className='mx-2 text-lg'/></button>
+
+                    </div>
+                </div>
+                <div className="lg:float-left self-center mt-20 lg:mt-7 rounded-full overflow-hidden mb-6 px-3 lg:m-8 border-black">
+                    <img src = {Pic} alt='My-Pic' className=" w-80" />
+                </div>
             </div>
-            <div className=" flex-1 mt-10">
-                <h1 className="font-bold text-4xl py-2">
-                    Shahad Hassan
-                </h1>
-                <h2 className="font-bold text-2xl pl-2 py-2">
-                    Front-end Developer
-                </h2> 
-                <p className="text-justify mr-20 py-2">
-                    I am a Frontend Developer, and I'm very passionate and dedicated to my work.  I own a patient and hard-working personality. I am currently pursuing Bachelor of Technology in specialization of Computer Science and Engineering. I’m very optimistic person and I have good Team Management Skill.
-                </p>
+            <div className='flex justify-center align-items-center mt-20 pb-10 lg:mt-14 '>
+                <Link activeClass='active' to="about-me" spy={true} smooth={true} offset={-20} duration={500} className="px-3 cursor-pointer"><FaArrowDown className='text-xl font-bold self-center'/></Link>
             </div>
-            <div className="flex flex-col mr-4">
-                <a href="https://www.facebook.com/shahad.chauhangurjar." rel="noreferrer" target="_blank" className="my-4 hover:text-amber-600"><i class="fa-brands fa-facebook fa-2xl"></i></a>
-                <a href="https://www.linkedin.com/in/shahad-hassan-82287a220" rel="noreferrer" target="_blank" className="my-4 hover:text-amber-600"><i class="fa-brands fa-linkedin fa-2xl"></i></a>
-                <a href="https://github.com/shahad-hassan19" rel="noreferrer" target="_blank" className="my-4 hover:text-amber-600"><i class="fa-brands fa-github fa-2xl"></i></a>
-                <a href="https://twitter.com/ChauhanShahad03" rel="noreferrer" target="_blank" className="my-4 hover:text-amber-600"><i class="fa-brands fa-x-twitter fa-2xl"></i></a>
-            </div>
-            
-            
         </div>
     )
 }

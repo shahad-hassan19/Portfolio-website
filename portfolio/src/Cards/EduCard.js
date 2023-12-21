@@ -1,17 +1,14 @@
 export default function EduCard(props){
     return(
-        <div className="border border-white rounded-md p-8">
-            <h3 className="font-semibold text-2xl mb-3">
+        <div className="">
+            <h3 className=" font-medium text-xl mb-2">
                 {props.name}
             </h3>
-            <p>
-                {props.year}
+            <p className=" mb-2 font-normal ">
+                {props.institute} / {props.year}
             </p>
-            <p>
+            <p className=" mb-4 font-normal">
                 {props.board}
-            </p>
-            <p>
-                {props.institute}
             </p>
         </div>
     )
