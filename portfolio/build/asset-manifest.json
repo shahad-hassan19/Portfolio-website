@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.14e0ad16.css",
+    "main.js": "/static/js/main.b1e346e0.js",
+    "static/js/787.7da95b79.chunk.js": "/static/js/787.7da95b79.chunk.js",
+    "static/media/MyPC.jpg": "/static/media/MyPC.0e3e4be7713ba4883c77.jpg",
+    "static/media/Scoiateal.png": "/static/media/Scoiateal.dfd6bd6fefadce938733.png",
+    "static/media/Redfly.png": "/static/media/Redfly.7ed7b22d9d7c6a63f06d.png",
+    "static/media/LaptopPic.jpg": "/static/media/LaptopPic.fc8a3cb63546163630bf.jpg",
+    "static/media/M&G.png": "/static/media/M&G.39145a79c49a01646373.png",
+    "static/media/Amazon.png": "/static/media/Amazon.2bc9945ad9ac028bb36c.png",
+    "static/media/Ellipse 1.png": "/static/media/Ellipse 1.2c8b53d14e1ec4a3b1a1.png",
+    "static/media/Portfolio-img.png": "/static/media/Portfolio-img.511cbffd1e3500b0a9c7.png",
+    "static/media/S..png": "/static/media/S..f30d38f0e97804cb939e.png",
+    "index.html": "/index.html",
+    "main.14e0ad16.css.map": "/static/css/main.14e0ad16.css.map",
+    "main.b1e346e0.js.map": "/static/js/main.b1e346e0.js.map",
+    "787.7da95b79.chunk.js.map": "/static/js/787.7da95b79.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.14e0ad16.css",
+    "static/js/main.b1e346e0.js"
+  ]
+}
