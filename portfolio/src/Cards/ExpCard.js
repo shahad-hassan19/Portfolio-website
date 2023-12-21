@@ -6,8 +6,7 @@ export default function ExpCard(props){
             <p className=" mb-2 font-normal">
             <a href={props.href1} rel="noreferrer" target="_blank" >{props.company}</a> / {props.duration}
             </p>
-            <p className=" mb-4 font-normal ">{props.mode}</p> 
-            {/* <button><a href={props.href2} rel="noreferrer" target="_blank" >Certificate</a></button> */}
+            <p className=" mb-4 font-normal ">{props.mode}</p>
             </div>
         </div>
     )
